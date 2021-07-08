@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:swizzl/screens/onboarding.dart';
-//import 'package:swizzl/screens/home/home.dart';
+//import 'package:swizzl/screens/onboarding.dart';
+//import 'package:swizzl/screens/home.dart';
+import 'package:swizzl/screens/signin.dart';
 
 
 void main() {
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: UploadOnboarding(),
+      home: OurSignIn(),
     );
   }
 }
